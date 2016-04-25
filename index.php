@@ -163,9 +163,7 @@
 </div>
 
 <div class="list">
-    <ul id="list">
-
-    </ul>
+    <ul id="list"></ul>
 </div>
 
 <script>
@@ -174,23 +172,15 @@
 
     var colors = ['#1abc9c','#2ecc71','#16a085','#27ae60'];
     var colorLenght = colors.length - 1;
-    console.log(colorLenght);
 
     function getRandomColor() {
         var randomColor = Math.floor(Math.random() * (colorLenght - 0 + 1)) + 0;
         return randomColor
     }
 
-    <?php
-        $folders = glob("*"); foreach ($folders as $folder){ if(is_dir($folder)){
-        $extraInfo = file_get_contents( $folder.'/info.txt', true );
-    ?>
-
+    <?php $folders = glob("*"); foreach ($folders as $folder){ if(is_dir($folder)){ $extraInfo = file_get_contents( $folder.'/info.txt', true );?>
     list.push(['<?php echo $folder ?>','<?php echo $extraInfo; ?>']);
-
     <?php }}?>
-
-    console.log(list);
 
     var listWrapper = document.getElementById('list');
     var arrayLength = list.length;
