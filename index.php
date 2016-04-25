@@ -178,7 +178,7 @@
         return randomColor
     }
 
-    <?php $folders = glob("*"); foreach ($folders as $folder){ if(is_dir($folder)){ $extraInfo = file_get_contents( $folder.'/info.txt', true );?>
+    <?php $folders = glob("*"); foreach ($folders as $folder){ if(is_dir($folder)){ $extraInfo = file_get_contents( $folder.'/info.txt', true ); $folder = strtolower($folder);?>
     list.push(['<?php echo $folder ?>','<?php echo $extraInfo; ?>']);
     <?php }}?>
 
