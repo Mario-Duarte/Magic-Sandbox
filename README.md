@@ -13,3 +13,5 @@ I did, so created this litle standalone php file to organize my htdocs in a grid
  - Extra info - just add an info.txt on your project folder with a description of the project and will automatacly add it to the grid.
  
 Feel free to send me your thoughs and features requests!
+
+#### Note: You may need to turn off PHP warnings or remove the funtionalaty of adding extra info to the project list using the .txt file if you can only see a empty page.
