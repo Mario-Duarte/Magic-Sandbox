@@ -1,3 +1,6 @@
+# Outdated!!!
+This vertion will no longer be updated, to get the newer vertion check [this](https://github.com/Mario-Duarte/Smart-Sandbox) repo.
+
 # Magic-Sandbox
 
 Do you have a messy htdocs folder? 
