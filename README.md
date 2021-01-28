@@ -1,5 +1,7 @@
 # Outdated!!!
-This vertion will no longer be updated, to get the newer vertion check [this](https://github.com/Mario-Duarte/Smart-Sandbox) repo.
+This version will no longer be updated, to get the newer vertion check [this](https://github.com/Mario-Duarte/Smart-Sandbox) repo.
+
+<a href="https://www.buymeacoffee.com/marioduarte"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Coffee&emoji=&slug=marioduarte&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a><br/>
 
 # Magic-Sandbox
 
